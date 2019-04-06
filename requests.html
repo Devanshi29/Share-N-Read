@@ -1,0 +1,140 @@
+<link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+<style type="text/css">
+body {
+	font-family: Arial;
+	background-color: #3498DB;
+	padding: 50px;
+}
+.request-container{
+	width : 50%;
+	
+	position: center;
+	margin: 40px auto;
+	background-color: #FFF;
+	
+	padding: 20px;
+	border-radius: 10px;
+}
+.req-title {
+	text-align: center;
+	color: #777;
+	font-size : 20px;
+
+}
+
+.card{
+	position: relative;
+	background-color: #ECF0F1;
+	margin :20px;
+	padding: 15px;
+	border-radius: 10px;
+
+}
+
+.card img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	
+
+}
+
+.profile{
+	float : left;
+	display: inline-block;
+}
+.user-details{
+	
+	display: inline-block;
+	margin-left: 40px;
+	padding :20px;
+	padding-left : 20px;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 18px;	
+	position: absolute;
+	width: 50%;
+}
+
+.card button{
+	float: right;
+	width: 200px;
+	height:  : 20px;
+}
+.card button img{
+	width: 100px;
+	height: 60px;
+}
+
+.card .accept {
+	width:100px;
+
+	position: relative;
+	float: right;
+
+	height : 200px;
+}
+
+</style>
+
+{%block body%}
+	<div class = "request-container">
+		<div class="req-title">
+			<h1>Requests</h1>
+		</div>
+		<div class="card">
+			<img src="profile.jpg">
+			<div class="user-details">
+				Name</br>
+				Username </br>
+				Date  
+				
+			</div>
+			<div class = "accept">
+			<ul style="list-style: none;">
+				<li><button><img src="accept1.png"></button></li>
+
+				<li><button><img src="decline.png"></button></li>
+			</ul>
+			</div>
+
+			
+		</div>
+		<div class="card">
+			<img src="profile.jpg">
+			<div class="user-details">
+				Name</br>
+				Username </br>
+				Date  
+				
+			</div>
+			<div class = "accept">
+			<ul style="list-style: none;">
+				<li><button><img src="accept1.png"></button></li>
+
+				<li><button><img src="decline.png"></button></li>
+			</ul>
+			</div>
+
+			
+		</div>
+		<div class="card">
+			<img src="profile.jpg">
+			<div class="user-details">
+				Name</br>
+				Username </br>
+				Date  
+				
+			</div>
+			<div class = "accept">
+			<ul style="list-style: none;">
+				<li><button><img src="accept1.png"></button></li>
+
+				<li><button><img src="decline.png"></button></li>
+			</ul>
+			</div>
+		</div>
+		
+	</div>
+
+{%endblock%}
